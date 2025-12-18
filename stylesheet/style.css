@@ -31,6 +31,22 @@ justify-content: space-between;
 height: 80px;
 padding: 0 42px;
 }
+.sticky {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+opacity: .5;
+height: 69px;
+transition: opacity .2s;
+}
+.contact_item a:hover {
+color: #1C6C6C;
+}
+.contact_item a:visited {
+color: #093A40;
+}
 .banner {
 height: 790px;
 background: url('../img_src/banner/banner.png') no-repeat center center;
@@ -61,6 +77,20 @@ margin-bottom: 255px;
 margin-top: 16px;
 font-size: 1.1875rem;
 color: #FFF;
+padding-bottom: 41px;
+}
+.home_contact {
+background: linear-gradient(180deg, #093A40, #1C3D3D);
+padding: 11px 22px;
+border: none;
+outline: none;
+border-radius: 1px;
+color: #FFF;
+font-size: 1.125rem;
+cursor: pointer;
+}
+.home_contact:hover {
+background: linear-gradient(180deg, #1F7373, #1C6C6C);
 }
 .sec_text {
 color: #5D5D5D;
